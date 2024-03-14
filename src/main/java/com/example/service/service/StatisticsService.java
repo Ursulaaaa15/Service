@@ -1,15 +1,14 @@
 package com.example.service.service;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.example.service.model.HarvestRecord;
 import com.example.service.model.StatisticItem;
 import com.example.service.model.StatisticsResponse;
 import com.example.service.repository.HarvestRecordRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class StatisticsService {
